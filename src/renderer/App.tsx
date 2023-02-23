@@ -25,15 +25,13 @@ const elapse = (
     .toString()
     .padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
 };
-function Hello() {
+function StopWatch() {
   const { seconds, minutes, hours, isRunning, start, pause, reset } =
     useStopwatch({ autoStart: false });
 
   return (
     <div className="App">
-      <header className='App-header'>
-        Stop Watch
-      </header>
+      <header className="App-header">Stop Watch</header>
       <section className="main">
         <div>
           <div className="timer">
@@ -44,7 +42,7 @@ function Hello() {
           <ResetButton
             clickEvent={() => {
               // 2回ボタンを押すとちゃんとリセットされるんだけど…
-              reset();
+              reset(undefined, false);
               pause();
             }}
           />
@@ -68,7 +66,7 @@ export default function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Hello />} />
+        <Route path="/" element={<StopWatch />} />
       </Routes>
     </Router>
   );

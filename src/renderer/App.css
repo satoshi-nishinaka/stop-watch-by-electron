@@ -17,7 +17,7 @@ body {
   justify-content: center;
   font-family: DSEG14-Modern;
   font-weight: bold;
-  font-size: calc(10px + 2vmin);
+  font-size: 24px;
   color: white;
   padding-bottom: 8px;
 }
@@ -30,7 +30,7 @@ body {
   display: inline-block;
   font-family: DSEG7-Classic;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 32px;
   line-height: 1.5;
   background-color: #1e222a;
   color: #40a040;
@@ -39,11 +39,12 @@ body {
 }
 
 .buttons {
-  padding: 4px 0 32px;
+  padding: 4px 0 8px;
 }
 
 button {
   font-family: DSEG14-Modern;
+  font-size: 16px;
   font-weight: bold;
   color: #ccc;
   background-color: #5a5e66;
