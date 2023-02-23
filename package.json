@@ -11,25 +11,25 @@
     "hot",
     "reload"
   ],
-  "homepage": "https://github.com/electron-react-boilerplate/electron-react-boilerplate#readme",
+  "homepage": "https://github.com/satoshi-nishinaka/stop-watch-by-electron",
   "bugs": {
-    "url": "https://github.com/electron-react-boilerplate/electron-react-boilerplate/issues"
+    "url": "https://github.com/satoshi-nishinaka/stop-watch-by-electron/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/electron-react-boilerplate/electron-react-boilerplate.git"
+    "url": "git@github.com:satoshi-nishinaka/stop-watch-by-electron.git"
   },
   "license": "MIT",
   "author": {
-    "name": "Electron React Boilerplate Maintainers",
-    "email": "electronreactboilerplate@gmail.com",
-    "url": "https://electron-react-boilerplate.js.org"
+    "name": "Satoshi Nishinaka",
+    "email": "satoshie.sp@gmail.com",
+    "url": "https://github.com/satoshi-nishinaka/"
   },
   "contributors": [
     {
-      "name": "Amila Welihinda",
-      "email": "amilajack@gmail.com",
-      "url": "https://github.com/amilajack"
+      "name": "Satoshi Nishinaka",
+      "email": "satoshie.sp@gmail.com",
+      "url": "https://github.com/satoshi-nishinaka/"
     }
   ],
   "main": "./src/main/main.ts",
