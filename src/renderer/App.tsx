@@ -1,5 +1,5 @@
 import { MemoryRouter as Router, Routes, Route } from 'react-router-dom';
-import './App.css';
+import './App.scss';
 import { useStopwatch } from 'react-timer-hook';
 import React from 'react';
 
@@ -33,10 +33,8 @@ function StopWatch() {
     <div className="App">
       <header className="App-header">Stop Watch</header>
       <section className="main">
-        <div>
-          <div className="timer">
-            {elapse(isRunning, hours, minutes, seconds)}
-          </div>
+        <div className="timer">
+          {elapse(isRunning, hours, minutes, seconds)}
         </div>
         <div className="buttons">
           <ResetButton
